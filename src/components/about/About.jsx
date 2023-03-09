@@ -1,20 +1,19 @@
 import React from 'react';
-import AboutImg from "../../assets/about1.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import AboutImg from "../../assets/hi.png";
 import Info from './Info';
 import "./about.css";
-import { useTranslation } from 'react-i18next'
+
 
 const About = () => {
       // Contains the value and text for the options
-const languages = [
-  { value: '', text: "Options" },
-  { value: 'en', text: "English" },
-  { value: 'fr', text: "French" },
-]
+// const languages = [
+//   { value: '', text: "Options" },
+//   { value: 'en', text: "English" },
+//   { value: 'fr', text: "French" },
+// ]
 
 // It is a hook imported from 'react-i18next'
-const { t } = useTranslation(); 
+// const { t } = useTranslation(); 
   return (
     <section className="about section" id="about">
         <h2 className="section__title">About Me</h2>
@@ -27,10 +26,12 @@ const { t } = useTranslation();
                 <Info />
 
                 <p className="about__description">
-               {t('about_me')}
+                I am a computer science enthusiast, especially in the cloud and web development fields.
+                Besides that I like to read, I am a basketball and football fan. I also enjoy travelling and visiting places.
+               {/* {t('about_me')} */}
                 </p>
 
-                <a download="" href={CV} className="button button--flex">
+                <a download="" href="https://cvdesignr.com/p/63fe41ddb2fa1" target="_blank" rel='noreferrer' className="button button--flex">
                 Download CV
                 <svg
                 className="button__icon"

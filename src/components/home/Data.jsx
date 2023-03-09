@@ -1,16 +1,16 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
+
 
 const Data = () => {
     // Contains the value and text for the options
-const languages = [
-    { value: '', text: "Options" },
-    { value: 'en', text: "English" },
-    { value: 'fr', text: "French" },
-]
+// const languages = [
+//     { value: '', text: "Options" },
+//     { value: 'en', text: "English" },
+//     { value: 'fr', text: "French" },
+// ]
 
 // It is a hook imported from 'react-i18next'
-const { t } = useTranslation(); 
+// const { t } = useTranslation(); 
 
  
 
@@ -67,12 +67,15 @@ const { t } = useTranslation();
                     ></path>
                 </svg>
             </h1>
-                <h3 className="home__subtitle">Visual Designer</h3>
+                <h3 className="home__subtitle"> FullStack Developer</h3>
                 <p className="home__description">
                     {/* I'm creative designer based in New York, and I'm very passionate and dedicated to my work. */}
-                    {t('visual_designer')}
+                    I am a fullstack developer based in Paris and I'm very passionate and dedicated to my work.
+                    {/* {t('visual_designer')} */}
                 </p>
-                <a href="#contact" className="button button--flex">{t('hello')}
+                <a href="#contact" className="button button--flex">
+                Say Hello
+                {/* {t('hello')} */}
                     <svg
                         className="button__icon"
                         xmlns="http://www.w3.org/2000/svg"

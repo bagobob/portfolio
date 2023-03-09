@@ -15,15 +15,15 @@ export const Header = () => {
     const [Toggle, showMenu] = useState(false);
     const [activeNav, setActiveNav] = useState("#home");
 
-    const [lang, setLang] = useState('en');
+    // const [lang, setLang] = useState('en');
 
       // This function put query that helps to 
     // change the language
-    const handleChange = e => { 
-        setLang(e.target.value);
-        let loc = "http://localhost:3000/";
-        window.location.replace(loc + "?lng=" + e.target.value);
-    }
+    // const handleChange = e => { 
+    //     setLang(e.target.value);
+    //     let loc = "http://localhost:3000/";
+    //     window.location.replace(loc + "?lng=" + e.target.value);
+    // }
 
     return (
         <header className="header">
@@ -82,6 +82,7 @@ export const Header = () => {
                             </a>
                         </li>
 
+
                         <li className="nav__item">
                             <a href="#contact"  onClick={() => setActiveNav("#contact")}
                                 className={
@@ -90,11 +91,11 @@ export const Header = () => {
                                 <i className="uil uil-message nav__icon"></i> Contact
                             </a>
                         </li>
-                        <li className="nav__item" onClick={handleChange}>
+                        {/* <li className="nav__item" onClick={handleChange}>
                             <span className="nav__link">
                                 <i class="uil uil-language icon__language"></i>
                             </span>
-                        </li>
+                        </li> */}
                     </ul>
 
                     <i
