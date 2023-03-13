@@ -36,7 +36,7 @@ const Services = () => {
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                I develop wev pages.
+                                I develop web pages.
                                 </p>
                             </li>
 
@@ -50,7 +50,7 @@ const Services = () => {
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                I Use React JS, Stencil JS or Tailwind.
+                                I Use React JS, Stencil JS, Next JS or Tailwind.
                                 </p>
                             </li>
 
@@ -103,7 +103,7 @@ const Services = () => {
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                I develop web applications on Web2 and Web3.
+                                I develop back end applications on Web2 and Web3.
                                 </p>
                             </li>
 
@@ -141,7 +141,7 @@ const Services = () => {
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className="services__modal-info">
-                                I develop applications in the cloud.
+                                I deploy applications in the cloud.
                                 </p>
                             </li>
 

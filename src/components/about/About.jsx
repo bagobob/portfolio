@@ -31,7 +31,7 @@ const About = () => {
                {/* {t('about_me')} */}
                 </p>
 
-                <a download="" href="https://cvdesignr.com/p/63fe41ddb2fa1" target="_blank" rel='noreferrer' className="button button--flex">
+                <a download="" href="https://cvdesignr.com/p/6212b7140b012" target="_blank" rel='noreferrer' className="button button--flex">
                 Download CV
                 <svg
                 className="button__icon"
