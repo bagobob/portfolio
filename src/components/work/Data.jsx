@@ -1,6 +1,6 @@
 import Work1 from "../../assets/work_1.png";
 import Work2 from "../../assets/work_2.png";
-import Work3 from "../../assets/work_3.png";
+import Work3 from "../../assets/web_7.png";
 import Work4 from "../../assets/work_4.png";
 import Work5 from "../../assets/work_5.png";
 import Work6 from "../../assets/work_6.png";
@@ -23,9 +23,9 @@ export const projectsData = [
     {
       id: 3,
       image: Work3,
-      title: "BobTube",
-      githubLink: "https://github.com/bagobob/video-sharing",
-      category: "app",
+      title: "Darecorp",
+      githubLink: "https://github.com/bagobob/darecorp-frontend",
+      category: "web",
     },
     {
       id: 4,
